@@ -1,6 +1,6 @@
 def hello_t(array)
     i = 0
-    collection = []
+    array = []
     while i < array.length
       array << yield(array[i])
       i = i + 1
