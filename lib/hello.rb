@@ -1,4 +1,5 @@
 def hello_t(array)
+  if blocj_given?
     i = 0
     while i < array.length
       yield(array[i])
