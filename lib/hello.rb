@@ -1,10 +1,11 @@
 def hello_t(array)
     i = 0
+    collection = []
     while i < array.length
-      yield(array[i])
+      collection << yield(array[i])
       i = i + 1
     end
-    array
+    collection
 end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
