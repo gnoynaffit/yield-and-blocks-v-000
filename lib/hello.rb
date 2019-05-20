@@ -5,7 +5,7 @@ def hello_t(array)
       collection << yield(array[i])
       i = i + 1
     end
-    collection
+    array
 end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
